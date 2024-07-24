@@ -1,3 +1,6 @@
-import tkinter
+import tkinter as tk
 
-tkinter._test()
+root = tk.Tk()
+# parent, text
+tk.Label(root, text="Hello World!").pack()
+root.mainloop()
